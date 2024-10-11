@@ -43,7 +43,7 @@ const ContactSection = () => {
               </div>
               <div className="mb-4">
                 <label htmlFor="message" className="block text-gray-700 mb-1">Message</label>
-                <textarea id="message" className="border border-gray-300 rounded-lg w-full p-2" rows="4" required></textarea>
+                <textarea id="message" className="border border-gray-300 rounded-lg w-full p-2" rows={4} required></textarea>
               </div>
               <button type="submit" className="bg-blue-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-blue-700">
                 Send Message
@@ -60,7 +60,7 @@ const ContactSection = () => {
             width="100%"
             height="400"
             style={{ border: 0 }}
-            allowFullScreen=""
+            allowFullScreen={true}
             loading="lazy"
             title="Google Map"
           ></iframe>
