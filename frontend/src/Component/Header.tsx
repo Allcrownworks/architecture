@@ -31,14 +31,15 @@ const Header = () => {
 
         {/* Hamburger Menu Icon */}
         <div className="md:hidden mt-3">
-          <button onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? (
-              <FaTimes className="w-6 h-6 text-orange-500 bg-transparent" />
-            ) : (
-              <FaBars className="w-6 h-6 text-orange-500 bg-transparent" />
-            )}
-          </button>
-        </div>
+  <button onClick={() => setIsOpen(!isOpen)}>
+    {isOpen ? (
+      <FaTimes className="w-6 h-6 text-orange-500" />
+    ) : (
+      <FaBars className="w-6 h-6 text-orange-500" />
+    )}
+  </button>
+</div>
+
 
         {/* Navigation Menu */}
         <nav
