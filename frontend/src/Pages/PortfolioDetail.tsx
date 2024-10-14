@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import pdfFile from "../assets/A_merge-compressed.pdf";
 import owo from "../assets/Owodunni-compressed (1).pdf";
 import okun from "../assets/OKUNNOWO-compressed.pdf";
-import imgA from "../assets/A.jpg";
+import imgA from "../assets/a.jpg";
 import img1 from "../assets/1.jpg";
 import imgC from "../assets/C.jpg";
 // import imgD from "../assets/1b.jpg";

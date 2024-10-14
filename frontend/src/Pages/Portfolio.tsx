@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import imgA from '../assets/A.jpg';
+import imgA from '../assets/a.jpg';
 import imgB from '../assets/1.jpg';
 import imgC from '../assets/C.jpg';
 // import imgD from '../assets/1b.jpg';
@@ -105,7 +105,7 @@ const Portfolio = () => {
     : projects.filter(project => project.category === selectedCategory);
 
   return (
-    <section id="portfolio" className="py-16 bg-white">
+    <section id="portfolio" className="py-16 bg-gray-100">
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-12">
@@ -120,7 +120,7 @@ const Portfolio = () => {
           {categories.map((category) => (
             <button
               key={category}
-              className={`px-4 py-2 m-2 text-sm font-medium rounded-full ${selectedCategory === category ? 'bg-orange-700 text-white' : 'bg-orange-500 text-white'}`}
+              className={`px-4 py-2 m-2 text-sm font-medium rounded-full focus:outline-none ${selectedCategory === category ? 'bg-orange-700 text-white' : 'bg-orange-500 text-white'}`}
               onClick={() => setSelectedCategory(category)}
             >
               {category}

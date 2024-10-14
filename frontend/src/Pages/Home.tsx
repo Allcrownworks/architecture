@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import carous
 
 // Import images from the src/assets folder
 import imgA from '../assets/1.jpg';
-import imgB from '../assets/A.jpg';
+import imgB from '../assets/a.jpg';
 import imgC from '../assets/C.jpg';
 import imgD from '../assets/1b.jpg';
 import imgE from '../assets/Hero.jpg';
