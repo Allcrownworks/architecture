@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import imgA from '../assets/a.jpg';
+import imgA from '../assets/A - Copy.jpg';
 import imgB from '../assets/1.jpg';
 import imgC from '../assets/C.jpg';
 // import imgD from '../assets/1b.jpg';
